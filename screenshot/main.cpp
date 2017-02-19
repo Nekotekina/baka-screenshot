@@ -192,7 +192,7 @@ int CALLBACK wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmd
 	{
 		while (true)
 		{
-			Sleep(5);
+			Sleep(100);
 
 			// Monitor Scroll Lock state
 			if (scroll_state && GetKeyState(VK_SCROLL) >= 0)
